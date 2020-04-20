@@ -8,3 +8,4 @@ install: clib install --dev
 script:
   - make bin/test
   - valgrind --leak-check=full --error-exitcode=5 ./bin/test
+BHEDB
